@@ -31,6 +31,9 @@ h4{
 	.container{
 		margin-left: 0px;
 	}
+	.jumbotron{
+		margin-right:0px;
+	}
 }
 
 /*.container-fluid{
