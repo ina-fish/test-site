@@ -4,14 +4,15 @@ body{
 .jumbotron{
 	display: flex;
 	justify-content: center;
-	background-image: url(cells.jpg);
-	background-size: 100%;
 	height: 125vh;
 	align-items: center;
 	margin-top: 80px;
 	margin-right: 42px;
 }
-
+.background{
+	background-image: url(cells.jpg);
+	background-size: 100%;
+}
 .pasta{
 	text-align: center;
 	color:white;
@@ -35,7 +36,6 @@ h4{
 @media only screen and (max-width: 500px) {
 	.jumbotron{
 		margin-right:20px;
-		transform: scale(1.8, 1.8);
 	}
 	.pasta{
 		margin-bottom: 80px;
