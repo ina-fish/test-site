@@ -27,6 +27,11 @@ h4{
 	font-size: 140%;
 	font-family: 'Chivo', sans-serif;
 }
+@media only screen and (max-width: 800px) {
+	.container{
+		margin-left: 0px;
+	}
+}
 
 /*.container-fluid{
 	display: flex;
