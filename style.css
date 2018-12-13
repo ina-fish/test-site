@@ -11,12 +11,12 @@ body{
 	margin-top: 80px;
 	margin-right: 42px;
 	position: relative;
+	filter: blur(5px);
 }
 
 .container{
 	text-align: center;
 	color:white;
-	margin-left: 158px;
 }
 h1{
 	font-size: 310%;
@@ -28,9 +28,6 @@ h4{
 	font-family: 'Chivo', sans-serif;
 }
 @media only screen and (max-width: 500px) {
-	.container{
-		margin-left: 0px;
-	}
 	.jumbotron{
 		margin-right:0px;
 	}
