@@ -34,7 +34,8 @@ h4{
 }
 @media only screen and (max-width: 500px) {
 	.jumbotron{
-		margin-right:0px;
+		margin-right:20px;
+		background-size: 250%;
 	}
 	.pasta{
 		margin-bottom: 80px;
