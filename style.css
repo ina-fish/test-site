@@ -34,6 +34,7 @@ h4{
 	justify-content: center;
 	align-items: center;
 	position: absolute;
+	margin-left: 59px;
 }
 @media only screen and (max-width: 500px) {
 	.jumbotron{
