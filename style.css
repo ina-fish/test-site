@@ -10,13 +10,14 @@ body{
 	align-items: center;
 	margin-top: 80px;
 	margin-right: 42px;
-	position: relative;
 }
 
-.container{
+.pasta{
 	text-align: center;
 	color:white;
-	filter: blur(0px);
+	margin-bottom: 14px;
+	margin-left: 59px;
+	transform: scale(1.07, 1.07);
 }
 h1{
 	font-size: 310%;
@@ -27,10 +28,17 @@ h4{
 	font-size: 140%;
 	font-family: 'Chivo', sans-serif;
 }
+.btn{
+	margin-top: 20px;
+}
 @media only screen and (max-width: 500px) {
 	.jumbotron{
 		margin-right:0px;
 	}
+	.container{
+		margin-bottom: 80px;
+	}
+
 }
 
 /*.container-fluid{
